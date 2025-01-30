@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+public struct SampleClass {
+    let identifier: String
+    
+    public init(identifier: String) {
+        self.identifier = identifier
+    }
+}

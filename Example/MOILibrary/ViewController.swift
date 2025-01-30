@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import MOILibrary
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let sample = SampleClass(identifier: "SampleClass")
     }
 
     override func didReceiveMemoryWarning() {

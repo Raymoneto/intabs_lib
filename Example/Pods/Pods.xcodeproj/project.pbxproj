@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0406511C2D4B676100FD2337 /* MOILibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406511B2D4B676100FD2337 /* MOILibrary.swift */; };
 		051800FDDA4B0C31F7BA3CBE0F2A8735 /* Pods-MOILibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE8DCE266CF6F1A2DAC5FD142D1BD56C /* Pods-MOILibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28F690D3E37F5F79BCE5BCE46AE9C58E /* Pods-MOILibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 991CFCB4DFD71B08F0CAFB5EF73F1141 /* Pods-MOILibrary_Tests-dummy.m */; };
-		6A06110C4495070C85B83C78A8E6229D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786912ABFFB909F673B3F52C3715E1EB /* ReplaceMe.swift */; };
 		6F67AC7F483842FC064BB34557664E97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		710A438CD7804469C25E0E2FC06273E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B250F5C1FECFBFDEC11E7D095974729E /* MOILibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C21EE50712FBAE6CE4D1176F941CA65 /* MOILibrary-dummy.m */; };
@@ -38,9 +38,10 @@
 
 /* Begin PBXFileReference section */
 		03B7F6884148911A73E20909A2D6BAB9 /* Pods-MOILibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MOILibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0406511B2D4B676100FD2337 /* MOILibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOILibrary.swift; sourceTree = "<group>"; };
 		1152998529D53D9711AE583E6BC6EC45 /* MOILibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MOILibrary.modulemap; sourceTree = "<group>"; };
 		1BF5FBC4963A7554018BD13E1EBB60F5 /* Pods-MOILibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MOILibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
-		205335C41FC3790D0D1C22559D628125 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		205335C41FC3790D0D1C22559D628125 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2AEB11F079C960C339AACC2A48ABB5DA /* Pods-MOILibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MOILibrary_Example-dummy.m"; sourceTree = "<group>"; };
 		2C21EE50712FBAE6CE4D1176F941CA65 /* MOILibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MOILibrary-dummy.m"; sourceTree = "<group>"; };
 		350A1149E1B4470B23571A6FA60B204B /* Pods-MOILibrary_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MOILibrary_Example"; path = Pods_MOILibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,12 +54,11 @@
 		76433710A4B0679C7775FECAAC9CE62B /* Pods-MOILibrary_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MOILibrary_Tests-Info.plist"; sourceTree = "<group>"; };
 		779CB1CDFF476E9AA870962ECBCE6DC7 /* Pods-MOILibrary_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MOILibrary_Example-Info.plist"; sourceTree = "<group>"; };
 		781BC58A2676873B5F716C8479926864 /* Pods-MOILibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MOILibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		786912ABFFB909F673B3F52C3715E1EB /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MOILibrary/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		94C73B357B3A9A63FA6A146F69359FDF /* Pods-MOILibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MOILibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		991CFCB4DFD71B08F0CAFB5EF73F1141 /* Pods-MOILibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MOILibrary_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B6CA90E3080E7E11735E77FAF2E70FA7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		BAA1B44F26D58EA0AD8151EC0C1CFEFA /* MOILibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MOILibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B6CA90E3080E7E11735E77FAF2E70FA7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BAA1B44F26D58EA0AD8151EC0C1CFEFA /* MOILibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MOILibrary.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		BE8DCE266CF6F1A2DAC5FD142D1BD56C /* Pods-MOILibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MOILibrary_Example-umbrella.h"; sourceTree = "<group>"; };
 		C0BA49D56F8EFB5580FBE98CE79BA7FB /* Pods-MOILibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MOILibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C6C45F2F3A194CA242BBC3BA1F5D3095 /* Pods-MOILibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MOILibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -186,7 +186,7 @@
 		A25FF91DE0309E4A7847CB15AADF7097 /* MOILibrary */ = {
 			isa = PBXGroup;
 			children = (
-				786912ABFFB909F673B3F52C3715E1EB /* ReplaceMe.swift */,
+				0406511B2D4B676100FD2337 /* MOILibrary.swift */,
 				9D4D0367DD6C8D68C0C8F6C09E52EDE2 /* Pod */,
 				4E9AAED06CC428FC1470777ED6E00FE5 /* Support Files */,
 			);
@@ -384,7 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B250F5C1FECFBFDEC11E7D095974729E /* MOILibrary-dummy.m in Sources */,
-				6A06110C4495070C85B83C78A8E6229D /* ReplaceMe.swift in Sources */,
+				0406511C2D4B676100FD2337 /* MOILibrary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,8 +590,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
