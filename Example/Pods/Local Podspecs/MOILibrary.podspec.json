@@ -1,0 +1,22 @@
+{
+  "name": "MOILibrary",
+  "version": "0.1.0",
+  "summary": "A short description of MOILibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/11509550/MOILibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "11509550": "raymoneto@yahoo.com"
+  },
+  "source": {
+    "git": "https://github.com/11509550/MOILibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "MOILibrary/Classes/**/*"
+}
